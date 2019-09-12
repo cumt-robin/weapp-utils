@@ -1,0 +1,19 @@
+{
+  "name": "weapp-utils",
+  "version": "1.0.0",
+  "description": "some foundmental utils for weapp",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weapp",
+    "utils"
+  ],
+  "author": "tusi666",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cumt-robin/weapp-utils.git"
+  }
+}
