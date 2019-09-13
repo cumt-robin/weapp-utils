@@ -15,14 +15,14 @@ npm install --save weapp-utils
 ### 全量导入
 
 ```javascript
-import * as weappUtils from '../utils/index.js'
+import * as weappUtils from "weapp-utils"
 weappUtils.merge(obj1, obj2)
 ```
 
 ### 部分导入
 
 ```javascript
-import { merge } from '../utils/index.js'
+import { merge } from 'weapp-utils'
 merge(obj1, obj2)
 ```
 
@@ -33,7 +33,7 @@ merge(obj1, obj2)
 判断变量的数据类型
 
 ```javascript
-import { getType } from '../utils/index.js'
+import { getType } from 'weapp-utils'
 const numType = getType(1);
 const strType = getType('1');
 ```
